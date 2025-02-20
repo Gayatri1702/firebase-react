@@ -1,0 +1,75 @@
+/* src/style.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E3F2FD; /* Light pastel blue */
+  text-align: center;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 220px;
+  background: #90CAF9; /* Pastel blue shade */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar button {
+  background: #64B5F6; /* Slightly darker pastel blue */
+  border: none;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar button:hover {
+  background: #42A5F5; /* Slightly darker on hover */
+}
+
+/* Content Area */
+.content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #E3F2FD;
+}
+
+/* Form Styling */
+input, button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 12px;
+  border: 1px solid #90CAF9;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input {
+  background: white;
+  color: #333;
+}
+
+button {
+  background: #64B5F6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #42A5F5;
+}
